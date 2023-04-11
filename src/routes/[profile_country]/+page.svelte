@@ -30,7 +30,7 @@ const response = data.response;
 {/each}
     
 {#each Object.entries(response.currencies) as [datas1 , datas2] }
-<div><h9>{datas1.toUpperCase()}</h9></div>
+<div><h9 class="text-2xl font-bold" >{datas1.toUpperCase()}</h9></div>
 
 <div><h9>Symbol: {datas2.symbol}</h9></div>
     
